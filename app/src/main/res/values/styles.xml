@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BeatBoxTheme" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryDark">@color/red_dark</item>
+        <item name="colorAccent">@color/gray</item>
+
+        <item name="android:buttonStyle">@style/BeatBoxButton</item>
+        <item name="android:colorBackground">@color/blue_sothing</item>
+    </style>
+
+    <style name="BeatBoxButton" parent="android:style/Widget.Material.Button">
+        <item name="android:background">@drawable/beatbox_button_shape</item>
+    </style>
+
+</resources>
